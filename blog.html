@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            background-color: pink;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+        main {
+            flex: 3;
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 40px;
+        }
+        article h2 {
+            font-size: 1.8em;
+        }
+        article time {
+            color: gray;
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        aside h3 {
+            font-size: 1.5em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            text-decoration: none;
+            color:skyblue;
+        }
+        a:hover {
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+
+        <h1>My Book Blog</h1>
+
+    <div class="container">
+        <main>
+            <article>
+                <h2>The Lantern of Lost Memories</h2>
+                <time datetime="2018-05-25">May 25, 2018</time>
+                <p>Extraordinarily moving and wise, The Lantern of Lost Memories is a beautiful Japanese tale about the people that make us and the moments that change us.</p>
+            </article>
+
+            <article>
+                <h2>Mixed Signals</h2>
+                <time datetime="2020-12-09">December 9, 2020</time>
+                <p>Mixed Signals is a sweet and steamy small-town romance. Our story features a bashful man who can rock a Hawaiian shirt, a hopeful and dreamy bakery owner, enough sweets to give you a cavity, and your favorite Inglewild residents. Mixed Signals is a standalone romance and the third book in the Lovelight series, a collection of interconnected novels.</p>
+            </article>
+
+            <article>
+                <h2>Death At Morning House</h2>
+                <time datetime="2024-11-03">November 3, 2024</time>
+                <p>From the bestselling author of the Truly Devious books, Maureen Johnson, comes a new stand-alone YA about a teen who uncovers a mystery while working as a tour guide on an island and must solve it before history repeats itself.</p>
+            </article>
+        </main>
+
+        <aside>
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">The Lantern of Lost Memories</a></li>
+                <li><a href="#">Mixed Signals</a></li>
+                <li><a href="#">Death At Morning House</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
